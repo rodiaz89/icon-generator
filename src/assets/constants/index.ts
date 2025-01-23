@@ -170,7 +170,10 @@ export const iconList = [
   },{
     value: "019_05_water_quality",
     icon: icons.icon_019_05_water_quality
-  },
+  },{
+    value: "020_01_res_cell_level",
+    icon: icons.icon_020_01_res_cell_level
+  }
 ];
 
 export const baseList = [

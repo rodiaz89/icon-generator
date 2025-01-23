@@ -40,6 +40,7 @@ import { icon_019_02_plant_purification } from "./019_02_plant_purification.js";
 import { icon_019_03_plant_water_treatment } from "./019_03_plant_water_treatment.js";
 import { icon_019_04_plant_water_treatment } from "./019_04_plant_water_treatment.js";
 import { icon_019_05_water_quality } from "./019_05_water_quality.js";
+import { icon_020_01_res_cell_level } from "./020_01_res_cell_level.js";
 
 
 export {
@@ -84,5 +85,6 @@ export {
     icon_019_02_plant_purification,
     icon_019_03_plant_water_treatment,
     icon_019_04_plant_water_treatment,
-    icon_019_05_water_quality
+    icon_019_05_water_quality,
+    icon_020_01_res_cell_level
 };

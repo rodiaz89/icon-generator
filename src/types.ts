@@ -64,7 +64,8 @@ export type FormatStyle =
     "019_02_plant_purification" |
     "019_03_plant_water_treatment" |
     "019_04_plant_water_treatment" |
-    "019_05_water_quality"
+    "019_05_water_quality" |
+    "020_01_res_cell_level"
 ;
 
 /**
