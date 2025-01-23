@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Generator</title>
+</head>
+<body>
+    <div id="icon-list"></div>
+</body>
+    <script>
+
+        const generateIcon = require('../src/createIcon');
+        const icons = [
+            { iconSvg: "005_01_customer_meter", shape: "marker" },
+            { iconSvg: "006_02_customer_meter", shape: "pin" }
+        ];
+
+        const iconList = document.getElementById('icon-list');
+
+        icons.forEach(iconConfig => {
+            const icon = generateIcon(iconConfig);
+            const iconElement = document.createElement('div');
+            iconElement.innerHTML = icon;
+            iconList.appendChild(iconElement);
+        });
+    </script>
+</html>
+

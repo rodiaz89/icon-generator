@@ -1,0 +1,25 @@
+{
+  "name": "rrdd-icon-generator",
+  "version": "1.0.6",
+  "description": "Generador de iconos SVG",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && tsc-alias",
+    "dev": "tsc && tsc-alias && node dist/index.js",
+    "show-icons": "tsc && tsc-alias && http-server ./docs -o"
+  },
+  "keywords": [],
+  "author": "Rodrigo Diaz",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "node-dev": "8.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "ts-node": "10.9.2",
+    "tsc-alias": "1.8.10",
+    "typescript": "5.7.3"
+  }
+}
