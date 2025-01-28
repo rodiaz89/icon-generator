@@ -385,7 +385,9 @@ export const baseList = [
     translateY: 1,
     scale: 0.155,
     widthDefault: 43,
-    heightDefault: 18
+    heightDefault: 18,
+    displacementXSprite: 0,
+    displacementYSprite: 0
   },{
     value: BASE_FORMAT_BADGE_STACK,
     icon: bases.badge_stack,
@@ -393,7 +395,9 @@ export const baseList = [
     translateY: 8,
     scale: 0.27,
     widthDefault: 90,
-    heightDefault: 44
+    heightDefault: 44,
+    displacementXSprite: 0,
+    displacementYSprite: 0
   },{
     value: BASE_FORMAT_CLUSTER,
     icon: bases.cluster,
@@ -401,24 +405,30 @@ export const baseList = [
     translateY: 25,
     scale: 0.18,
     widthDefault: 85,
-    heightDefault: 85
+    heightDefault: 85,
+    displacementXSprite: 7.5,
+    displacementYSprite: 7.5
   },{
     value: BASE_FORMAT_MARKER,
     icon: bases.marker,
-    translateX: 12,
-    translateY: 11,
+    translateX: 4,
+    translateY: 4,
     scale: 0.24,
-    widthDefault: 48,
-    heightDefault: 53
+    widthDefault: 32,
+    heightDefault: 32,
+    displacementXSprite: 35,
+    displacementYSprite: 35
   },
   {
     value: BASE_FORMAT_PIN,
     icon: bases.pin,
-    translateX: 12,
-    translateY: 12,
+    translateX: 4,
+    translateY: 5,
     scale: 0.24,
     widthDefault: 48,
-    heightDefault: 53
+    heightDefault: 53,
+    displacementXSprite: 34,
+    displacementYSprite: 34
   },
   {
     value: BASE_FORMAT_STACK,
@@ -427,6 +437,8 @@ export const baseList = [
     translateY: 4.5,
     scale: 0.16,
     widthDefault: 46,
-    heightDefault: 50
+    heightDefault: 50,
+    displacementXSprite: 27,
+    displacementYSprite: 25
   },
 ];
