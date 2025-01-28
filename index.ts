@@ -1,11 +1,11 @@
 import { createIcon, FormatIconObject } from "./src/index.js";
 
 const iconConfig = {
-    iconSvg: "009_01_dma_meter",
-    shape: "stack",
+    iconSvg: "002_01_pump",
+    shape: "pin",
     mode: "error",
-    backgroundColor: "#FFFFFF",
-    iconColor: "#FF0000",
+    backgroundColor: "rgb(255, 255, 255)",
+    iconColor: "rgb(255, 0, 0)",
 } as FormatIconObject;
 
 console.log(createIcon(iconConfig));

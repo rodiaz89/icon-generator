@@ -19,27 +19,27 @@ import {
 export const modeList = [
   {
     value: MODE_FORMAT_SELECTED,
-    color: "#319ACB",
+    color: "rgb(49, 154, 203)",
   },
   {
     value: MODE_FORMAT_INACTIVE,
-    color: "#D5D5D5",
+    color: "rgb(213, 213, 213)",
   },
   {
     value: MODE_FORMAT_WARNING_YELLOW,
-    color: "#E9C417",
+    color: "rgb(233, 196, 23)",
   },
   {
     value: MODE_FORMAT_WARNING_ORANGE,
-    color: "#FF9D5C",
+    color: "rgb(255, 157, 92)",
   },
   {
     value: MODE_FORMAT_SUCCESS,
-    color: "#86DC3D",
+    color: "rgb(134, 220, 61)",
   },
   {
     value: MODE_FORMAT_ERROR,
-    color: "#E37272",
+    color: "rgb(227, 114, 114)",
   },
 ];
 

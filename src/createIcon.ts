@@ -21,7 +21,7 @@ export function createIcon(iconObject: FormatIconObject): string {
   let baseIcon = getBaseIcon(
     shape,
     mode ? mode : "selected",
-    backgroundColor ? backgroundColor : "#FFFFFF"
+    backgroundColor ? backgroundColor : "rgb(255, 255, 255)"
   );
 
   const defaultIconColor = getDefaultIconColor(shape);
@@ -85,7 +85,7 @@ const getMode = (mode: string) => {
 };
 
 const getBackgroundColor = (backgroundColor: string) => {
-  let myBgColor = "#FFFFFF";
+  let myBgColor = "rgb(255, 255, 255)";
 
   if (backgroundColor) {
     myBgColor = backgroundColor;
@@ -122,10 +122,10 @@ const getIcon = (iconSvg: string, iconColor: string, shape: string) => {
 };
 
 const getDefaultIconColor = (shape: string) => {
-  let myIconColor = "#000000";
+  let myIconColor = "rgb(0, 0, 0)";
 
   if (shape == BASE_FORMAT_BADGE || shape == BASE_FORMAT_BADGE_STACK || shape == BASE_FORMAT_CLUSTER) {
-    myIconColor = "#FFFFFF";
+    myIconColor = "rgb(255, 255, 255)";
   }
 
   return myIconColor;
