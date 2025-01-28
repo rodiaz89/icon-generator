@@ -65,7 +65,74 @@ export type FormatStyle =
     "019_03_plant_water_treatment" |
     "019_04_plant_water_treatment" |
     "019_05_water_quality" |
-    "020_01_res_cell_level"
+    "020_01_res_cell_level" |
+    "021_01_smart_irrigation" |
+    "022_01_tank" |
+    "022_02_tank" |
+    "022_03_storm_tank" |
+    "023_01_temperature_device" |
+    "024_01_trifurcation_bifurcation" |
+    "025_01_work_orders" |
+    "025_02_work_orders" |
+    "025_03_work_orders" |
+    "026_01_bell" |
+    "026_02_alarm" |
+    "026_03_warning" |
+    "027_01_well" |
+    "027_02_well" |
+    "028_01_industry" |
+    "029_01_edar" |
+    "030_01_measurement_location" |
+    "031_01_chip" |
+    "032_01_broom" |
+    "033_01_irrigation_pond" |
+    "034_01_drainage" |
+    "035_01_fertirrigation_equipment" |
+    "036_01_flow_pressure" |
+    "037_01_gateway" |
+    "038_01_leak_detector" |
+    "038_02_leak_detector" |
+    "039_01_wifi_slash" |
+    "040_01_data_logger" |
+    "041_01_positioning" |
+    "042_01_find_location" |
+    "043_01_location" |
+    "044_01_active" |
+    "045_01_actuation" |
+    "046_01_electrician" |
+    "046_02_plumber" |
+    "046_03_mechanic" |
+    "046_04_preventive_resource" |
+    "046_05_worker" |
+    "046_06_labourer" |
+    "047_01_exploitation" |
+    "048_01_samples" |
+    "049_01_press" |
+    "050_01_manhole" |
+    "050_02_manhole" |
+    "050_03_manhole_end_cap" |
+    "050_04_inspection_hole" |
+    "051_01_pump_station" |
+    "052_01_river_sea" |
+    "053_01_spill" |
+    "053_02_spillway" |
+    "054_01_underpass" |
+    "055_01_weather_station" |
+    "056_01_weather_radar" |
+    "057_01_fat_trap" |
+    "058_01_microtunnel" |
+    "059_01_dirty_sewage_access" |
+    "060_01_locking_maintenance_chamber" |
+    "061_01_underground_water_access" |
+    "062_01_truck" |
+    "063_01_parking" |
+    "064_02_no_gps_signal" |
+    "065_01_on_road" |
+    "066_01_off_road" |
+    "067_01_sludge" |
+    "068_01_digging_man" |
+    "069_01_cloud_sharp" |
+    "070_01_camera"
 ;
 
 /**

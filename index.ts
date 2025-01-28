@@ -1,9 +1,11 @@
 import { createIcon, FormatIconObject } from "./src/index.js";
 
 const iconConfig = {
-    iconSvg: "020_01_res_cell_level",
-    shape: "badge",
-    mode: "success",
+    iconSvg: "009_01_dma_meter",
+    shape: "stack",
+    mode: "error",
+    backgroundColor: "#FFFFFF",
+    iconColor: "#FF0000",
 } as FormatIconObject;
 
 console.log(createIcon(iconConfig));

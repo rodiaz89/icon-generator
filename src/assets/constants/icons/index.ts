@@ -41,6 +41,73 @@ import { icon_019_03_plant_water_treatment } from "./019_03_plant_water_treatmen
 import { icon_019_04_plant_water_treatment } from "./019_04_plant_water_treatment.js";
 import { icon_019_05_water_quality } from "./019_05_water_quality.js";
 import { icon_020_01_res_cell_level } from "./020_01_res_cell_level.js";
+import { icon_021_01_smart_irrigation } from "./021_01_smart_irrigation.js";
+import { icon_022_01_tank } from "./022_01_tank.js";
+import { icon_022_02_tank } from "./022_02_tank.js";
+import { icon_022_03_storm_tank } from "./022_03_storm_tank.js";
+import { icon_023_01_temperature_device } from "./023_01_temperature_device.js";
+import { icon_024_01_trifurcation_bifurcation } from "./024_01_trifurcation_bifurcation.js";
+import { icon_025_01_work_orders } from "./025_01_work_orders.js";
+import { icon_025_02_work_orders } from "./025_02_work_orders.js";
+import { icon_025_03_work_orders } from "./025_03_work_orders.js";
+import { icon_026_01_bell } from "./026_01_bell.js";
+import { icon_026_02_alarm } from "./026_02_alarm.js";
+import { icon_026_03_warning } from "./026_03_warning.js";
+import { icon_027_01_well } from "./027_01_well.js";
+import { icon_027_02_well } from "./027_02_well.js";
+import { icon_028_01_industry } from "./028_01_industry.js";
+import { icon_029_01_edar } from "./029_01_edar.js";
+import { icon_030_01_measurement_location } from "./030_01_measurement_location.js";
+import { icon_031_01_chip } from "./031_01_chip.js";
+import { icon_032_01_broom } from "./032_01_broom.js";
+import { icon_033_01_irrigation_pond } from "./033_01_irrigation_pond.js";
+import { icon_034_01_drainage } from "./034_01_drainage.js";
+import { icon_035_01_fertirrigation_equipment } from "./035_01_fertirrigation_equipment.js";
+import { icon_036_01_flow_pressure } from "./036_01_flow_pressure.js";
+import { icon_037_01_gateway } from "./037_01_gateway.js";
+import { icon_038_01_leak_detector } from "./038_01_leak_detector.js";
+import { icon_038_02_leak_detector } from "./038_02_leak_detector.js";
+import { icon_039_01_wifi_slash } from "./039_01_wifi_slash.js";
+import { icon_040_01_data_logger } from "./040_01_data_logger.js";
+import { icon_041_01_positioning } from "./041_01_positioning.js";
+import { icon_042_01_find_location } from "./042_01_find_location.js";
+import { icon_043_01_location } from "./043_01_location.js";
+import { icon_044_01_active } from "./044_01_active.js";
+import { icon_045_01_actuation } from "./045_01_actuation.js";
+import { icon_046_01_electrician } from "./046_01_electrician.js";
+import { icon_046_02_plumber } from "./046_02_plumber.js";
+import { icon_046_03_mechanic } from "./046_03_mechanic.js";
+import { icon_046_04_preventive_resource } from "./046_04_preventive_resource.js";
+import { icon_046_05_worker } from "./046_05_worker.js";
+import { icon_046_06_labourer } from "./046_06_labourer.js";
+import { icon_047_01_exploitation } from "./047_01_exploitation.js";
+import { icon_048_01_samples } from "./048_01_samples.js";
+import { icon_049_01_press } from "./049_01_press.js";
+import { icon_050_01_manhole } from "./050_01_manhole.js";
+import { icon_050_02_manhole } from "./050_02_manhole.js";
+import { icon_050_03_manhole_end_cap } from "./050_03_manhole_end_cap.js";
+import { icon_050_04_inspection_hole } from "./050_04_inspection_hole.js";
+import { icon_051_01_pump_station } from "./051_01_pump_station.js";
+import { icon_052_01_river_sea } from "./052_01_river_sea.js";
+import { icon_053_01_spill } from "./053_01_spill.js";
+import { icon_053_02_spillway } from "./053_02_spillway.js";
+import { icon_054_01_underpass } from "./054_01_underpass.js";
+import { icon_055_01_weather_station } from "./055_01_weather_station.js";
+import { icon_056_01_weather_radar } from "./056_01_weather_radar.js";
+import { icon_057_01_fat_trap } from "./057_01_fat_trap.js";
+import { icon_058_01_microtunnel } from "./058_01_microtunnel.js";
+import { icon_059_01_dirty_sewage_access } from "./059_01_dirty_sewage_access.js";
+import { icon_060_01_locking_maintenance_chamber } from "./060_01_locking_maintenance_chamber.js";
+import { icon_061_01_underground_water_access } from "./061_01_underground_water_access.js";
+import { icon_062_01_truck } from "./062_01_truck.js";
+import { icon_063_01_parking } from "./063_01_parking.js";
+import { icon_064_02_no_gps_signal } from "./064_02_no_gps_signal.js";
+import { icon_065_01_on_road } from "./065_01_on_road.js";
+import { icon_066_01_off_road } from "./066_01_off_road.js";
+import { icon_067_01_sludge } from "./067_01_sludge.js";
+import { icon_068_01_digging_man } from "./068_01_digging_man.js";
+import { icon_069_01_cloud_sharp } from "./069_01_cloud_sharp.js";
+import { icon_070_01_camera } from "./070_01_camera.js";
 
 
 export {
@@ -86,5 +153,72 @@ export {
     icon_019_03_plant_water_treatment,
     icon_019_04_plant_water_treatment,
     icon_019_05_water_quality,
-    icon_020_01_res_cell_level
+    icon_020_01_res_cell_level,
+    icon_021_01_smart_irrigation,
+    icon_022_01_tank,
+    icon_022_02_tank,
+    icon_022_03_storm_tank,
+    icon_023_01_temperature_device,
+    icon_024_01_trifurcation_bifurcation,
+    icon_025_01_work_orders,
+    icon_025_02_work_orders,
+    icon_025_03_work_orders,
+    icon_026_01_bell,
+    icon_026_02_alarm,
+    icon_026_03_warning,
+    icon_027_01_well,
+    icon_027_02_well,
+    icon_028_01_industry,
+    icon_029_01_edar,
+    icon_030_01_measurement_location,
+    icon_031_01_chip,
+    icon_032_01_broom,
+    icon_033_01_irrigation_pond,
+    icon_034_01_drainage,
+    icon_035_01_fertirrigation_equipment,
+    icon_036_01_flow_pressure,
+    icon_037_01_gateway,
+    icon_038_01_leak_detector,
+    icon_038_02_leak_detector,
+    icon_039_01_wifi_slash,
+    icon_040_01_data_logger,
+    icon_041_01_positioning,
+    icon_042_01_find_location,
+    icon_043_01_location,
+    icon_044_01_active,
+    icon_045_01_actuation,
+    icon_046_01_electrician,
+    icon_046_02_plumber,
+    icon_046_03_mechanic,
+    icon_046_04_preventive_resource,
+    icon_046_05_worker,
+    icon_046_06_labourer,
+    icon_047_01_exploitation,
+    icon_048_01_samples,
+    icon_049_01_press,
+    icon_050_01_manhole,
+    icon_050_02_manhole,
+    icon_050_03_manhole_end_cap,
+    icon_050_04_inspection_hole,
+    icon_051_01_pump_station,
+    icon_052_01_river_sea,
+    icon_053_01_spill,
+    icon_053_02_spillway,
+    icon_054_01_underpass,
+    icon_055_01_weather_station,
+    icon_056_01_weather_radar,
+    icon_057_01_fat_trap,
+    icon_058_01_microtunnel,
+    icon_059_01_dirty_sewage_access,
+    icon_060_01_locking_maintenance_chamber,
+    icon_061_01_underground_water_access,
+    icon_062_01_truck,
+    icon_063_01_parking,
+    icon_064_02_no_gps_signal,
+    icon_065_01_on_road,
+    icon_066_01_off_road,
+    icon_067_01_sludge,
+    icon_068_01_digging_man,
+    icon_069_01_cloud_sharp,
+    icon_070_01_camera
 };

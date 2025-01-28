@@ -173,6 +173,207 @@ export const iconList = [
   },{
     value: "020_01_res_cell_level",
     icon: icons.icon_020_01_res_cell_level
+  },{
+    value: "021_01_smart_irrigation",
+    icon: icons.icon_021_01_smart_irrigation
+  },{
+    value: "022_01_tank",
+    icon: icons.icon_022_01_tank
+  },{
+    value: "022_02_tank",
+    icon: icons.icon_022_02_tank
+  },{
+    value: "022_03_storm_tank",
+    icon: icons.icon_022_03_storm_tank
+  },{
+    value: "023_01_temperature_device",
+    icon: icons.icon_023_01_temperature_device
+  },{
+    value: "024_01_trifurcation_bifurcation",
+    icon: icons.icon_024_01_trifurcation_bifurcation
+  },{
+    value: "025_01_work_orders",
+    icon: icons.icon_025_01_work_orders
+  },{
+    value: "025_02_work_orders",
+    icon: icons.icon_025_02_work_orders
+  },{
+    value: "025_03_work_orders",
+    icon: icons.icon_025_03_work_orders
+  },{
+    value: "026_01_bell",
+    icon: icons.icon_026_01_bell
+  },{
+    value: "026_02_alarm",
+    icon: icons.icon_026_02_alarm
+  },{
+    value: "026_03_warning",
+    icon: icons.icon_026_03_warning
+  },{
+    value: "027_01_well",
+    icon: icons.icon_027_01_well
+  },{
+    value: "027_02_well",
+    icon: icons.icon_027_02_well
+  },{
+    value: "028_01_industry",
+    icon: icons.icon_028_01_industry
+  },{
+    value: "029_01_edar",
+    icon: icons.icon_029_01_edar
+  },{
+    value: "030_01_measurement_location",
+    icon: icons.icon_030_01_measurement_location
+  },{
+    value: "031_01_chip",
+    icon: icons.icon_031_01_chip
+  },{
+    value: "032_01_broom",
+    icon: icons.icon_032_01_broom
+  },{
+    value: "033_01_irrigation_pond",
+    icon: icons.icon_033_01_irrigation_pond
+  },{
+    value: "034_01_drainage",
+    icon: icons.icon_034_01_drainage
+  },{
+    value: "035_01_fertirrigation_equipment",
+    icon: icons.icon_035_01_fertirrigation_equipment
+  },{
+    value: "036_01_flow_pressure",
+    icon: icons.icon_036_01_flow_pressure
+  },{
+    value: "037_01_gateway",
+    icon: icons.icon_037_01_gateway
+  },{
+    value: "038_01_leak_detector",
+    icon: icons.icon_038_01_leak_detector
+  },{
+    value: "038_02_leak_detector",
+    icon: icons.icon_038_02_leak_detector
+  },{
+    value: "039_01_wifi_slash",
+    icon: icons.icon_039_01_wifi_slash
+  },{
+    value: "040_01_data_logger",
+    icon: icons.icon_040_01_data_logger
+  },{
+    value: "041_01_positioning",
+    icon: icons.icon_041_01_positioning
+  },{
+    value: "042_01_find_location",
+    icon: icons.icon_042_01_find_location
+  },{
+    value: "043_01_location",
+    icon: icons.icon_043_01_location
+  },{
+    value: "044_01_active",
+    icon: icons.icon_044_01_active
+  },{
+    value: "045_01_actuation",
+    icon: icons.icon_045_01_actuation
+  },{
+    value: "046_01_electrician",
+    icon: icons.icon_046_01_electrician
+  },{
+    value: "046_02_plumber",
+    icon: icons.icon_046_02_plumber
+  },{
+    value: "046_03_mechanic",
+    icon: icons.icon_046_03_mechanic
+  },{
+    value: "046_04_preventive_resource",
+    icon: icons.icon_046_04_preventive_resource
+  },{
+    value: "046_05_worker",
+    icon: icons.icon_046_05_worker
+  },{
+    value: "046_06_labourer",
+    icon: icons.icon_046_06_labourer
+  },{
+    value: "047_01_exploitation",
+    icon: icons.icon_047_01_exploitation
+  },{
+    value: "048_01_samples",
+    icon: icons.icon_048_01_samples
+  },{
+    value: "049_01_press",
+    icon: icons.icon_049_01_press
+  },{
+    value: "050_01_manhole",
+    icon: icons.icon_050_01_manhole
+  },{
+    value: "050_02_manhole",
+    icon: icons.icon_050_02_manhole
+  },{
+    value: "050_03_manhole_end_cap",
+    icon: icons.icon_050_03_manhole_end_cap
+  },{
+    value: "050_04_inspection_hole",
+    icon: icons.icon_050_04_inspection_hole
+  },{
+    value: "051_01_pump_station",
+    icon: icons.icon_051_01_pump_station
+  },{
+    value: "052_01_river_sea",
+    icon: icons.icon_052_01_river_sea
+  },{
+    value: "053_01_spill",
+    icon: icons.icon_053_01_spill
+  },{
+    value: "053_02_spillway",
+    icon: icons.icon_053_02_spillway
+  },{
+    value: "054_01_underpass",
+    icon: icons.icon_054_01_underpass
+  },{
+    value: "055_01_weather_station",
+    icon: icons.icon_055_01_weather_station
+  },{
+    value: "056_01_weather_radar",
+    icon: icons.icon_056_01_weather_radar
+  },{
+    value: "057_01_fat_trap",
+    icon: icons.icon_057_01_fat_trap
+  },{
+    value: "058_01_microtunnel",
+    icon: icons.icon_058_01_microtunnel
+  },{
+    value: "059_01_dirty_sewage_access",
+    icon: icons.icon_059_01_dirty_sewage_access
+  },{
+    value: "060_01_locking_maintenance_chamber",
+    icon: icons.icon_060_01_locking_maintenance_chamber
+  },{
+    value: "061_01_underground_water_access",
+    icon: icons.icon_061_01_underground_water_access
+  },{
+    value: "062_01_truck",
+    icon: icons.icon_062_01_truck
+  },{
+    value: "063_01_parking",
+    icon: icons.icon_063_01_parking
+  },{
+    value: "064_02_no_gps_signal",
+    icon: icons.icon_064_02_no_gps_signal
+  },{
+    value: "065_01_on_road",
+    icon: icons.icon_065_01_on_road
+  },{
+    value: "066_01_off_road",
+    icon: icons.icon_066_01_off_road
+  },{
+    value: "067_01_sludge",
+    icon: icons.icon_067_01_sludge
+  },{
+    value: "068_01_digging_man",
+    icon: icons.icon_068_01_digging_man
+  },{
+    value: "069_01_cloud_sharp",
+    icon: icons.icon_069_01_cloud_sharp
+  },{
+    value: "070_01_camera",
+    icon: icons.icon_070_01_camera
   }
 ];
 
