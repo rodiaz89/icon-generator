@@ -383,38 +383,50 @@ export const baseList = [
     icon: bases.badge,
     translateX: 4.5,
     translateY: 1,
-    scale: 0.155
+    scale: 0.155,
+    widthDefault: 43,
+    heightDefault: 18
   },{
     value: BASE_FORMAT_BADGE_STACK,
     icon: bases.badge_stack,
     translateX: 7.5,
     translateY: 8,
-    scale: 0.27
+    scale: 0.27,
+    widthDefault: 90,
+    heightDefault: 44
   },{
     value: BASE_FORMAT_CLUSTER,
     icon: bases.cluster,
     translateX: 34,
     translateY: 25,
-    scale: 0.18
+    scale: 0.18,
+    widthDefault: 85,
+    heightDefault: 85
   },{
     value: BASE_FORMAT_MARKER,
     icon: bases.marker,
     translateX: 12,
     translateY: 11,
-    scale: 0.24
+    scale: 0.24,
+    widthDefault: 48,
+    heightDefault: 53
   },
   {
     value: BASE_FORMAT_PIN,
     icon: bases.pin,
     translateX: 12,
     translateY: 12,
-    scale: 0.24
+    scale: 0.24,
+    widthDefault: 48,
+    heightDefault: 53
   },
   {
     value: BASE_FORMAT_STACK,
     icon: bases.stack,
     translateX: 15,
     translateY: 4.5,
-    scale: 0.16
+    scale: 0.16,
+    widthDefault: 46,
+    heightDefault: 50
   },
 ];

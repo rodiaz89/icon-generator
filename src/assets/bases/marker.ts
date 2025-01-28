@@ -1,5 +1,5 @@
 export const marker = `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 53" width="45px" height="48px">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48px" height="53px" viewBox="0 0 48 53">
         <g>
             <circle cx="24" cy="23" fill="{{__mode__}}" r="16"/>
         </g>
