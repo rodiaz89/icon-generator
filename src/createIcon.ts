@@ -18,6 +18,7 @@ import {
 export function createIcon(iconObject: FormatIconObject): string {
   const { iconSvg, shape, mode, backgroundColor, iconColor } = iconObject;
 
+
   let baseIcon = getBaseIcon(
     shape,
     mode ? mode : "selected",
@@ -25,6 +26,11 @@ export function createIcon(iconObject: FormatIconObject): string {
   );
 
   const defaultIconColor = getDefaultIconColor(shape);
+
+  //Validate if, at this point myIconColor is a rgb color
+  if(iconColor && !iconColor.match(/rgb\(\d{1,3}, \d{1,3}, \d{1,3}\)/)) {
+    throw new Error(`Icon color not found for color: ${iconColor}. Please use a rgb color.`);
+  }
 
   let icon = getIcon(
     iconSvg ? iconSvg : "",
@@ -80,13 +86,21 @@ const getBaseIcon = (shape: string, mode: string, backgroundColor: string) => {
 };
 
 const getMode = (mode: string) => {
+  
+  let myModeIcon = mode;
+
+  //Check if mode is in the list (ej: error, warning, success, etc)
   let modeIcon = modeList.find(
     (locatedMode) => locatedMode.value === mode
   );
-  let myModeIcon = mode;
-
+  
   if (modeIcon) {
     myModeIcon = modeIcon.color;
+  }
+
+  //Validate if, at this point mode is a rgb color
+  if(!myModeIcon.match(/rgb\(\d{1,3}, \d{1,3}, \d{1,3}\)/)) {
+    throw new Error(`Mode not found for mode: ${mode}. Please use a rgb color or a valid mode.`);
   }
 
   return myModeIcon;
@@ -97,6 +111,11 @@ const getBackgroundColor = (backgroundColor: string) => {
 
   if (backgroundColor) {
     myBgColor = backgroundColor;
+  }
+
+  //Validate if, at this point backgroundColor is a rgb color
+  if(!myBgColor.match(/rgb\(\d{1,3}, \d{1,3}, \d{1,3}\)/)) {
+    throw new Error(`Background color not found for color: ${backgroundColor}. Please use a rgb color.`);
   }
 
   return myBgColor;
