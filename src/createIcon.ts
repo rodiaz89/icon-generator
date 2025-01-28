@@ -34,7 +34,15 @@ export function createIcon(iconObject: FormatIconObject): string {
   
   baseIcon = baseIcon.replace("{{__slot__}}", icon);
 
-  return baseIcon;
+  const [innerWidth, innerHeight] = getDimensions(shape);
+
+  const finalIcon = `
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${innerWidth}px" height="${innerHeight}px" viewBox="0 0 ${innerWidth} ${innerHeight}">
+      ${baseIcon}
+    </svg>
+  `;
+
+  return finalIcon;
 }
 
 /**
@@ -130,3 +138,10 @@ const getDefaultIconColor = (shape: string) => {
 
   return myIconColor;
 };
+
+const getDimensions = (shape: string) => {
+
+  const myShape = baseList.find((base) => base.value === shape);
+
+  return [myShape!.widthDefault, myShape!.heightDefault];
+}
