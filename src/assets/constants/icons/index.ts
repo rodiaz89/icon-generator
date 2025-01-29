@@ -1,3 +1,4 @@
+import { icon_000_01_undefined } from "./000_01_undefined.js";
 import { icon_001_01_acoustic_device } from "./001_01_acoustic_device.js";
 import { icon_002_01_pump } from "./002_01_pump.js";
 import { icon_002_02_pump } from "./002_02_pump.js";
@@ -118,6 +119,7 @@ import { icon_072_01_pressure_control } from "./072_01_pressure_control.js";
 
 
 export {
+    icon_000_01_undefined,
     icon_001_01_acoustic_device,
     icon_002_01_pump,
     icon_002_02_pump,

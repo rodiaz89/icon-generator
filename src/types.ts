@@ -40,7 +40,7 @@ export type ModeFormatOption =
 /**
  * Default available icons
  */
-
+export const ICON_000_01_UNDEFINED = "000_01_undefined";
 export const ICON_001_01_ACOUSTIC_DEVICE = "001_01_acoustic_device";
 export const ICON_002_01_PUMP = "002_01_pump";
 export const ICON_002_02_PUMP = "002_02_pump";
@@ -160,6 +160,7 @@ export const ICON_071_01_HUB = "071_01_hub";
 export const ICON_072_01_PRESSURE_CONTROL = "072_01_pressure_control";
 
 export type FormatStyle = 
+    typeof ICON_000_01_UNDEFINED |
     typeof ICON_001_01_ACOUSTIC_DEVICE | 
     typeof ICON_002_01_PUMP | 
     typeof ICON_002_02_PUMP | 
