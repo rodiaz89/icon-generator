@@ -5,6 +5,7 @@ import { icon_002_03_pump } from "./002_03_pump.js";
 import { icon_003_01_bulk_meter } from "./003_01_bulk_meter.js";
 import { icon_004_01_customer_contact } from "./004_01_customer_contact.js";
 import { icon_005_01_customer_meter } from "./005_01_customer_meter.js";
+import { icon_005_02_customer_meter } from "./005_02_customer_meter.js";
 import { icon_006_01_sensor_general } from "./006_01_sensor_general.js";
 import { icon_006_02_sensor_soil_moisture } from "./006_02_sensor_soil_moisture.js";
 import { icon_006_03_sensor } from "./006_03_sensor.js";
@@ -35,6 +36,7 @@ import { icon_017_02_flow_meter } from "./017_02_flow_meter.js";
 import { icon_018_01_pressure_meter } from "./018_01_pressure_meter.js";
 import { icon_018_02_pressure_meter_transient } from "./018_02_pressure_meter_transient.js";
 import { icon_018_03_pressure_meter } from "./018_03_pressure_meter.js";
+import { icon_018_04_pressure_meter } from "./018_04_pressure_meter.js";
 import { icon_019_01_plant_chlorination } from "./019_01_plant_chlorination.js";
 import { icon_019_02_plant_purification } from "./019_02_plant_purification.js";
 import { icon_019_03_plant_water_treatment } from "./019_03_plant_water_treatment.js";
@@ -65,10 +67,13 @@ import { icon_034_01_drainage } from "./034_01_drainage.js";
 import { icon_035_01_fertirrigation_equipment } from "./035_01_fertirrigation_equipment.js";
 import { icon_036_01_flow_pressure } from "./036_01_flow_pressure.js";
 import { icon_037_01_gateway } from "./037_01_gateway.js";
+import { icon_037_02_gateway } from "./037_02_gateway.js";
 import { icon_038_01_leak_detector } from "./038_01_leak_detector.js";
 import { icon_038_02_leak_detector } from "./038_02_leak_detector.js";
+import { icon_038_03_leak_detector } from "./038_03_leak_detector.js";
 import { icon_039_01_wifi_slash } from "./039_01_wifi_slash.js";
 import { icon_040_01_data_logger } from "./040_01_data_logger.js";
+import { icon_040_02_data_logger } from "./040_02_data_logger.js";
 import { icon_041_01_positioning } from "./041_01_positioning.js";
 import { icon_042_01_find_location } from "./042_01_find_location.js";
 import { icon_043_01_location } from "./043_01_location.js";
@@ -108,6 +113,8 @@ import { icon_067_01_sludge } from "./067_01_sludge.js";
 import { icon_068_01_digging_man } from "./068_01_digging_man.js";
 import { icon_069_01_cloud_sharp } from "./069_01_cloud_sharp.js";
 import { icon_070_01_camera } from "./070_01_camera.js";
+import { icon_071_01_hub } from "./071_01_hub.js";
+import { icon_072_01_pressure_control } from "./072_01_pressure_control.js";
 
 
 export {
@@ -118,6 +125,7 @@ export {
     icon_003_01_bulk_meter,
     icon_004_01_customer_contact,
     icon_005_01_customer_meter,
+    icon_005_02_customer_meter,
     icon_006_01_sensor_general,
     icon_006_02_sensor_soil_moisture,
     icon_006_03_sensor,
@@ -148,6 +156,7 @@ export {
     icon_018_01_pressure_meter,
     icon_018_02_pressure_meter_transient,
     icon_018_03_pressure_meter,
+    icon_018_04_pressure_meter,
     icon_019_01_plant_chlorination,
     icon_019_02_plant_purification,
     icon_019_03_plant_water_treatment,
@@ -178,10 +187,13 @@ export {
     icon_035_01_fertirrigation_equipment,
     icon_036_01_flow_pressure,
     icon_037_01_gateway,
+    icon_037_02_gateway,
     icon_038_01_leak_detector,
     icon_038_02_leak_detector,
+    icon_038_03_leak_detector,
     icon_039_01_wifi_slash,
     icon_040_01_data_logger,
+    icon_040_02_data_logger,
     icon_041_01_positioning,
     icon_042_01_find_location,
     icon_043_01_location,
@@ -220,5 +232,7 @@ export {
     icon_067_01_sludge,
     icon_068_01_digging_man,
     icon_069_01_cloud_sharp,
-    icon_070_01_camera
+    icon_070_01_camera,
+    icon_071_01_hub,
+    icon_072_01_pressure_control
 };

@@ -66,6 +66,9 @@ export const iconList = [
     value: "005_01_customer_meter",
     icon: icons.icon_005_01_customer_meter
   },{
+    value: "005_02_customer_meter",
+    icon: icons.icon_005_02_customer_meter
+  },{
     value: "006_01_sensor_general",
     icon: icons.icon_006_01_sensor_general
   },{
@@ -155,6 +158,9 @@ export const iconList = [
   },{
     value: "018_03_pressure_meter",
     icon: icons.icon_018_03_pressure_meter
+  },{
+    value: "018_04_pressure_meter",
+    icon: icons.icon_018_04_pressure_meter
   },{
     value: "019_01_plant_chlorination",
     icon: icons.icon_019_01_plant_chlorination
@@ -246,17 +252,26 @@ export const iconList = [
     value: "037_01_gateway",
     icon: icons.icon_037_01_gateway
   },{
+    value: "037_02_gateway",
+    icon: icons.icon_037_02_gateway
+  },{
     value: "038_01_leak_detector",
     icon: icons.icon_038_01_leak_detector
   },{
     value: "038_02_leak_detector",
     icon: icons.icon_038_02_leak_detector
   },{
+    value: "038_03_leak_detector",
+    icon: icons.icon_038_03_leak_detector
+  },{
     value: "039_01_wifi_slash",
     icon: icons.icon_039_01_wifi_slash
   },{
     value: "040_01_data_logger",
     icon: icons.icon_040_01_data_logger
+  },{
+    value: "040_02_data_logger",
+    icon: icons.icon_040_02_data_logger
   },{
     value: "041_01_positioning",
     icon: icons.icon_041_01_positioning
@@ -374,6 +389,12 @@ export const iconList = [
   },{
     value: "070_01_camera",
     icon: icons.icon_070_01_camera
+  },{
+    value: "071_01_hub",
+    icon: icons.icon_071_01_hub
+  },{
+    value: "072_01_pressure_control",
+    icon: icons.icon_072_01_pressure_control
   }
 ];
 

@@ -42,3 +42,24 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.icon-block-element{
+    width: 100px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.icon-block-element p {
+    overflow-wrap: break-word;
+    font-size: 9px;
+    padding: 2px;
+    margin: 0px;
+    height: 25px;
+    text-align: center;
+}
+
+.icon-block-element svg{
+    width: 70%;
+    height: 70%;
+}
