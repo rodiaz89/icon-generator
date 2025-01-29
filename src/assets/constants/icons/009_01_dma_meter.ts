@@ -1,5 +1,5 @@
 export const icon_009_01_dma_meter = `
-    <g stroke="{{__iconColor__}}" transform="translate(-8, -5) scale(0.46)">
+    <g stroke="{{__iconColor__}}" transform="translate(2, 1) scale(0.4)">
 		<defs>
 			<style>
 				.a_009_01 {

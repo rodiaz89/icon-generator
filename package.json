@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && tsc-alias",
     "dev": "tsc && tsc-alias && node dist/index.js",
-    "show-icons": "tsc && tsc-alias && http-server ./docs -o"
+    "show-icons": "tsc && tsc-alias && http-server ./"
   },
   "keywords": [],
   "author": "Rodrigo Diaz",

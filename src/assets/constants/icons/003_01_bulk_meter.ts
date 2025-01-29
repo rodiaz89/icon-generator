@@ -1,5 +1,5 @@
 export const icon_003_01_bulk_meter = `
-    <g stroke="{{__iconColor__}}" transform="translate(0, 0) scale(0.4)">
+    <g stroke="{{__iconColor__}}" transform="translate(2, 0) scale(0.4)">
         <defs>
             <style>
                 .a_003_01, .b_003_01 {

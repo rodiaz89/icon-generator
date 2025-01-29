@@ -401,7 +401,7 @@ export const baseList = [
   },{
     value: BASE_FORMAT_CLUSTER,
     icon: bases.cluster,
-    translateX: 34,
+    translateX: 33,
     translateY: 25,
     scale: 0.18,
     widthDefault: 85,
@@ -423,7 +423,7 @@ export const baseList = [
     value: BASE_FORMAT_PIN,
     icon: bases.pin,
     translateX: 4,
-    translateY: 5,
+    translateY: 4,
     scale: 0.24,
     widthDefault: 48,
     heightDefault: 53,
