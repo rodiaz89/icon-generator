@@ -4,53 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Icon Generator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-    
-        h1 {
-            text-align: center;
-            margin: 20px 0;
-        }
-    
-        #icon-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-    
-        .icon-block {
-            width: 100%;
-            margin: 10px;
-            padding: 10px;
-            padding-bottom: 0px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-    
-        .icon-block h2 {
-            margin: 0 0 10px 0;
-            font-size: 12px;
-        }
-             
-        .icon-element {
-            height: 100px;
-            width: 100px;
-            float: left;
-            position: relative;
-        }
-
-        .icon-element svg {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    
-    </style>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <h1>Icon Generator</h1>
@@ -58,38 +12,5 @@
   </body>
 
   <script type="module" src="../dist/src/index.js"></script>
-  <script type="module">
-
-    import { createIcon, iconList, baseList } from "../dist/src/index.js";
-
-    const iconListContainer = document.getElementById("icon-list");
-
-    iconList.forEach((icon) => {
-
-        const iconBlockContainer = document.createElement("div");
-        iconBlockContainer.classList.add("icon-block");
-        iconBlockContainer.innerHTML = `<h2>${icon.value}</h2>`;
-
-        const iconName = icon.value;
-
-        baseList.forEach((base) => {
-            let baseName = base.value;
-
-            const iconConfig = {
-                iconSvg: iconName,
-                shape: baseName,
-                mode: "selected"
-            };
-            
-            const iconSvg = createIcon(iconConfig);
-
-            const iconElement = document.createElement("div");
-            iconElement.classList.add("icon-element");
-            iconElement.innerHTML = iconSvg;
-            iconBlockContainer.appendChild(iconElement);
-        })
-
-        iconListContainer.appendChild(iconBlockContainer);
-    });
-  </script>
+  <script type="module" src="./assets/js/scripts.js"></script>
 </html>

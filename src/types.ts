@@ -16,10 +16,17 @@ export const MODE_FORMAT_ERROR = "error";
 /**
  * Mode format parts of icons:
  */
-export type ModeFormatOption = "selected" | "inactive" | "warning-yellow" | "warning-orange" | "success"
+export type ModeFormatOption = 
+    typeof MODE_FORMAT_SELECTED | 
+    typeof MODE_FORMAT_INACTIVE |
+    typeof MODE_FORMAT_WARNING_YELLOW |
+    typeof MODE_FORMAT_WARNING_ORANGE |
+    typeof MODE_FORMAT_SUCCESS |
+    typeof MODE_FORMAT_ERROR
+;
 
 /**
- * Icon available: 
+ * Icons available: 
  */
 
 export type FormatStyle = 

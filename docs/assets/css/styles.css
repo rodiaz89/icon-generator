@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#icon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon-block {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.icon-block h2 {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+}
+     
+.icon-element {
+    height: 100px;
+    width: 100px;
+    float: left;
+    position: relative;
+}
+
+.icon-element svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

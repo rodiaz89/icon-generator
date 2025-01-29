@@ -379,6 +379,38 @@ export const iconList = [
 
 export const baseList = [
   {
+    value: BASE_FORMAT_MARKER,
+    icon: bases.marker,
+    translateX: 4,
+    translateY: 4,
+    scale: 0.24,
+    widthDefault: 32,
+    heightDefault: 32,
+    displacementXSprite: 35,
+    displacementYSprite: 35
+  },
+  {
+    value: BASE_FORMAT_PIN,
+    icon: bases.pin,
+    translateX: 4,
+    translateY: 4,
+    scale: 0.24,
+    widthDefault: 32,
+    heightDefault: 37.1,
+    displacementXSprite: 34,
+    displacementYSprite: 34
+  },
+  {
+    value: BASE_FORMAT_STACK,
+    icon: bases.stack,
+    translateX: 15,
+    translateY: 4.5,
+    scale: 0.16,
+    widthDefault: 46,
+    heightDefault: 50,
+    displacementXSprite: 27,
+    displacementYSprite: 25
+  },{
     value: BASE_FORMAT_BADGE,
     icon: bases.badge,
     translateX: 4.5,
@@ -408,37 +440,5 @@ export const baseList = [
     heightDefault: 85,
     displacementXSprite: 7.5,
     displacementYSprite: 7.5
-  },{
-    value: BASE_FORMAT_MARKER,
-    icon: bases.marker,
-    translateX: 4,
-    translateY: 4,
-    scale: 0.24,
-    widthDefault: 32,
-    heightDefault: 32,
-    displacementXSprite: 35,
-    displacementYSprite: 35
-  },
-  {
-    value: BASE_FORMAT_PIN,
-    icon: bases.pin,
-    translateX: 4,
-    translateY: 4,
-    scale: 0.24,
-    widthDefault: 48,
-    heightDefault: 53,
-    displacementXSprite: 34,
-    displacementYSprite: 34
-  },
-  {
-    value: BASE_FORMAT_STACK,
-    icon: bases.stack,
-    translateX: 15,
-    translateY: 4.5,
-    scale: 0.16,
-    widthDefault: 46,
-    heightDefault: 50,
-    displacementXSprite: 27,
-    displacementYSprite: 25
   },
 ];
